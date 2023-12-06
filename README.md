@@ -4,3 +4,4 @@
 This repository encompasses tasks and projects associated with the JavaScript Fundamentals course at SoftUni.
 
 ## Overview
+- **Basic Syntax, Conditional Statements and Loops**: 
