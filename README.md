@@ -5,3 +5,4 @@ This repository encompasses tasks and projects associated with the JavaScript Fu
 
 ## Overview
 - **Basic Syntax, Conditional Statements and Loops**: This section includes tasks aimed at developing proficiency in basic syntax, conditional statements, and loops in JavaScript.
+- **Data Types and Variables**: This section focuses on honing JavaScript skills in basic syntax, conditional statements, and loops.
