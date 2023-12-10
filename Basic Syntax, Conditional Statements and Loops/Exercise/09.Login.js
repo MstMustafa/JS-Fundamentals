@@ -6,16 +6,12 @@ function login(input)
 
    let counter = 0
 
-  
    let index = 1
    let command = input[index]
    index++
 
    while (command !== password)
    {
-      
-    
-    
     counter++
 
     if(counter === 4)
@@ -24,17 +20,10 @@ function login(input)
         return;
     }
 
-   
-
     console.log(`Incorrect password. Try again.`)
-    
-      
+  
     command = input[index]
     index++
-    
-
-   
-
 
    }
    
