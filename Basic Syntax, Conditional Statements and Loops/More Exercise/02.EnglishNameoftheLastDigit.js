@@ -3,8 +3,6 @@ function lastDigit(digit)
      let num = Number(digit[0])
      let lastNum = num % 10
 
-
-
      switch(lastNum)
      {
         case  1 : console.log('one') ; break;
@@ -18,17 +16,6 @@ function lastDigit(digit)
         case  9 : console.log('nine') ; break;
         default : console.log('zero') ; break;
      }
-
-
-     
-
-
-
-
-
-
-
-
 
 
 }
