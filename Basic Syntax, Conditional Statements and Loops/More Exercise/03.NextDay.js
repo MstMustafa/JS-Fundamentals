@@ -13,5 +13,5 @@ function getNextDay(year, month, day) {
   
   let formattedResult = `${nextYear}-${nextMonth}-${nextDayOfMonth}`;
 
-  return formattedResult;
+  console.log(formattedResult);
 }
