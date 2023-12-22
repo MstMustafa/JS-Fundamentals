@@ -4,5 +4,5 @@ function calculateDistance(x1, y1, x2, y2) {
 
   let distance = Math.sqrt(deltaX ** 2 + deltaY ** 2);
 
-  return distance;
+  console.log(distance);
 }
