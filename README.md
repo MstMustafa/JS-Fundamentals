@@ -9,3 +9,4 @@
 - **Basic Syntax, Conditional Statements and Loops**: This section includes tasks aimed at developing proficiency in basic syntax, conditional statements, and loops in JavaScript.
 - **Data Types and Variables**: This section includes tasks that aim to sharpen JavaScript skills in handling different data types and working with variables.
 - **Arrays**: This section includes tasks that aim to sharpen JavaScript skills in working with arrays and handling different elements within them.
+- **Functions**: This section focuses on tasks designed to enhance your understanding and proficiency in working with functions in JavaScript.
