@@ -1,5 +1,5 @@
 function executePostfix(instructions) {
-    const stack = [];
+    let stack = [];
     
     for (let instruction of instructions) {
         if (typeof instruction === 'number') {
@@ -8,8 +8,8 @@ function executePostfix(instructions) {
             if (stack.length < 2) {
                 return "Error: not enough operands!";
             }
-            const b = stack.pop();
-            const a = stack.pop();
+            let b = stack.pop();
+            let a = stack.pop();
             
             switch (instruction) {
                 case '+':
