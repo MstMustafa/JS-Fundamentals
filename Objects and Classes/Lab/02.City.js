@@ -6,6 +6,4 @@ function city(obj)
       console.log(`${key} -> ${obj[key]}`)
    }
 
-
-
 }
