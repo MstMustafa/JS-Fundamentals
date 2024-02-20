@@ -11,3 +11,4 @@
 - **Arrays**: This section includes tasks that aim to sharpen JavaScript skills in working with arrays and handling different elements within them.
 - **Functions**: This section focuses on tasks designed to enhance your understanding and proficiency in working with functions in JavaScript.
 - **Arrays Advanced**: This section covers complex JavaScript array topics like multidimensional arrays, advanced sorting, and large array management.
+- **Objects and Classes**: This section introduces the basics of working with objects and defining classes, exploring how to create and use them to structure data effectively.
