@@ -1,6 +1,8 @@
 function oddOccurrences(sentence) {
+    
     const words = sentence.toLowerCase().split(' ');
     const wordCounts = {};
+    
     words.forEach(word => {
         if (wordCounts[word]) {
             wordCounts[word] += 1;
