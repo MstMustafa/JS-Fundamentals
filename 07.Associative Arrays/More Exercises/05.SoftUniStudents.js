@@ -3,7 +3,7 @@ function manageSoftUniStudents(input) {
 
     input.forEach(line => {
         if (line.includes(':')) {
-
+            
             const [courseName, capacity] = line.split(': ');
             if (!courses[courseName]) {
                 courses[courseName] = { capacity: +capacity, students: [] };
@@ -11,18 +11,20 @@ function manageSoftUniStudents(input) {
                 courses[courseName].capacity += +capacity;
             }
         } else {
-        
-            const studentInfo = line.match(/(.+)\[(\d+)] with email (.+) joins (.+)/);
-            if (!studentInfo) return;
+          
+            const [studentPart, courseName] = line.split(' joins ');
+            const [usernameWithCredits, emailPart] = studentPart.split(' with email ');
+            const credits = usernameWithCredits.slice(usernameWithCredits.lastIndexOf('[') + 1, usernameWithCredits.lastIndexOf(']'));
+            const username = usernameWithCredits.slice(0, usernameWithCredits.lastIndexOf('['));
+            const email = emailPart;
 
-            const [, username, credits, email, courseName] = studentInfo;
             if (courses[courseName] && courses[courseName].students.length < courses[courseName].capacity) {
                 courses[courseName].students.push({ username, email, credits: +credits });
             }
         }
     });
 
-  
+    
     Object.entries(courses).sort((a, b) => b[1].students.length - a[1].students.length).forEach(([courseName, courseInfo]) => {
         console.log(`${courseName}: ${courseInfo.capacity - courseInfo.students.length} places left`);
         courseInfo.students.sort((a, b) => b.credits - a.credits).forEach(student => {
