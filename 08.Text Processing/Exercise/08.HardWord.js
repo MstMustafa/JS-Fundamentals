@@ -1,19 +1,34 @@
 function fillTheHoles(letterAndWords) {
-   
     const [letter, words] = letterAndWords;
-   
-    const holePattern = /_+/g;
+    let filledLetter = '';
+    let holeLength = 0; 
 
-    let filledLetter = letter.replace(holePattern, (match) => {
-  
-        const word = words.find(word => word.length === match.length);
-      
+    for (let i = 0; i < letter.length; i++) {
+        if (letter[i] === '_') {
+            holeLength++;
+        } else {
+     
+            if (holeLength > 0) {
+                const word = words.find(word => word.length === holeLength);
+                const wordIndex = words.indexOf(word);
+                if (wordIndex !== -1) {
+                    words.splice(wordIndex, 1);
+                }
+                filledLetter += word;
+                holeLength = 0;
+            }
+            filledLetter += letter[i];
+        }
+    }
+
+    if (holeLength > 0) {
+        const word = words.find(word => word.length === holeLength);
         const wordIndex = words.indexOf(word);
         if (wordIndex !== -1) {
             words.splice(wordIndex, 1);
         }
-        return word;
-    });
+        filledLetter += word;
+    }
 
     return filledLetter;
 }
