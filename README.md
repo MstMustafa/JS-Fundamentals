@@ -13,3 +13,4 @@
 - **Arrays Advanced**: This section covers complex JavaScript array topics like multidimensional arrays, advanced sorting, and large array management.
 - **Objects and Classes**: This section introduces the basics of working with objects and defining classes, exploring how to create and use them to structure data effectively.
 - **Associative Arrays**: This section explores associative arrays (objects in JavaScript), focusing on using key-value pairs to manage and access data dynamically.
+- **Text Processing**: This section aims to enhance JavaScript skills in handling and manipulating strings and text data. 
