@@ -1,5 +1,5 @@
 function printFlightsByStatus(input) {
-  const flights = {}; // Store flights
+  const flights = {};
   const updates = input[1];
   const statusToCheck = input[2][0];
 
