@@ -3,7 +3,6 @@ function organizeShelves(input) {
 
     input.forEach(entry => {
         if (entry.includes("->")) {
-            // Create a shelf
             const [id, genre] = entry.split(" -> ");
             if (!shelves[id]) {
                 shelves[id] = { genre, books: [] };
