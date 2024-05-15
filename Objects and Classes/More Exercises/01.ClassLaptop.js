@@ -2,7 +2,7 @@ class Laptop {
     constructor(info, quality) {
         this.info = info; 
         this.isOn = false; 
-        this.quality = quality; // Number
+        this.quality = quality;
     }
 
     turnOn() {
