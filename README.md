@@ -14,3 +14,4 @@
 - **Objects and Classes**: This section introduces the basics of working with objects and defining classes, exploring how to create and use them to structure data effectively.
 - **Associative Arrays**: This section explores associative arrays (objects in JavaScript), focusing on using key-value pairs to manage and access data dynamically.
 - **Text Processing**: This section aims to enhance JavaScript skills in handling and manipulating strings and text data. 
+- **Regular Expressions**: This section delves into the powerful world of regular expressions in JavaScript, teaching you how to use patterns to search, match, and manipulate text data efficiently.
