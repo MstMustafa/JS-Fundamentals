@@ -34,7 +34,6 @@ function legendaryFarming(input) {
         .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
         .forEach(([material, quantity]) => console.log(`${material}: ${quantity}`));
 
-    // Sorting and printing junk items
     Object.entries(junk)
         .sort((a, b) => a[0].localeCompare(b[0]))
         .forEach(([material, quantity]) => console.log(`${material}: ${quantity}`));
