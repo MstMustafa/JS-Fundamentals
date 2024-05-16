@@ -9,10 +9,10 @@ function decodeMessage(inputData) {
    
     for (let i = 0; i < messageMatrix.length; i++) {
         for (let j = 0; j < messageMatrix[i].length; j++) {
-            // Calculate the position in the template matrix
+            
             let templateRow = i % n;
             let templateColumn = j % templateMatrix[0].length;
-            // Sum the values and find the corresponding letter
+            
             let sumResult = messageMatrix[i][j] + templateMatrix[templateRow][templateColumn];
             let charIndex = sumResult % letters.length;
             decodedMessage += letters[charIndex];
