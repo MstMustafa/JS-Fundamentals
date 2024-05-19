@@ -15,7 +15,7 @@ function merlahShake(input) {
                 let removeFromPattIndex = Math.floor(pattern.length / 2);
                 pattern = pattern.substring(0, removeFromPattIndex) + pattern.substring(removeFromPattIndex + 1);
             } else {
-                pattern = ""; // Making the pattern empty to break the loop
+                pattern = "";
             }
 
             console.log('Shaked it.');
