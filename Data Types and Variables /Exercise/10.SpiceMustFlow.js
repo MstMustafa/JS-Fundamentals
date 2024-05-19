@@ -14,7 +14,6 @@ function spiceMining(startingYield) {
         days++;
     }
 
-    // Account for the additional spice consumed after the mine has been exhausted
     totalSpiceExtracted -= spiceConsumedPerDay;
 
     console.log(days);
