@@ -15,3 +15,8 @@
 - **Associative Arrays**: This section explores associative arrays (objects in JavaScript), focusing on using key-value pairs to manage and access data dynamically.
 - **Text Processing**: This section aims to enhance JavaScript skills in handling and manipulating strings and text data. 
 - **Regular Expressions**: This section delves into the powerful world of regular expressions in JavaScript, teaching you how to use patterns to search, match, and manipulate text data efficiently.
+
+
+## How to Use 
+- Each folder represents a topic from the course.
+- Feel free to explore the code, learn from it, and use it for your own learning.
