@@ -19,10 +19,4 @@ function biggestofThree( a , b, c)
 
    console.log(theBiggestofThree)
 
-
-
-
-
-
-
 }
