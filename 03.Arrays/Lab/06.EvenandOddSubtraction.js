@@ -5,7 +5,6 @@ function calculateEvenOddDifference(numbers) {
   for (let i = 0; i < numbers.length; i++) {
     const number = Number(numbers[i]);
 
-    // Check if the number is even or odd
     if (number % 2 === 0) {
       sumEven += number;
     } else {
