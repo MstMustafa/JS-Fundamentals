@@ -14,7 +14,7 @@ function processSongs(inputArray) {
     songs.push(new Song(typeList, name, time));
   }
 
-  const filterType = inputArray[inputArray.length - 1]; // Extract the filter type (last element)
+  const filterType = inputArray[inputArray.length - 1];
 
   if (filterType === "all") {
     songs.forEach(song => console.log(song.name));
