@@ -23,6 +23,6 @@ function processStudents(input) {
     console.log(`${grade} Grade`);
     console.log(`List of students: ${students.join(', ')}`);
     console.log(`Average annual score from last year: ${averageScore.toFixed(2)}`);
-    console.log(); // Empty row
+    console.log();
   });
 }
