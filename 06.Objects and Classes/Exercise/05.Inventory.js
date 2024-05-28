@@ -5,8 +5,8 @@ function registerHeroes(input) {
     input.forEach(heroString => {
 
         let [name, level, items] = heroString.split(' / ');
-        level = Number(level); // Convert level from string to number
-        items = items ? items.split(', ') : []; // Split items into an array, or default to empty array if no items
+        level = Number(level);
+        items = items ? items.split(', ') : [];
 
      
         heroes.push({ name, level, items });
