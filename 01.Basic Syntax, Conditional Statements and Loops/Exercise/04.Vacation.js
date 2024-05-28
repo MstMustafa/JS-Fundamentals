@@ -1,7 +1,6 @@
 function calculateTotalPrice(groupSize, groupType, dayOfWeek) {
     let pricePerPerson;
 
-    // Assign price per person based on day of the week and group type
     switch (dayOfWeek) {
         case "Friday":
             switch (groupType) {
@@ -31,7 +30,6 @@ function calculateTotalPrice(groupSize, groupType, dayOfWeek) {
 
     let totalPrice = groupSize * pricePerPerson;
 
-    // Apply discounts
     switch (groupType) {
         case "Students":
             if (groupSize >= 30) {
